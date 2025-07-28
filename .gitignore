@@ -27,3 +27,10 @@ yarn-error.log*
 
 Server/node_modules
 Server/config.js
+
+node_modules/
+.cache/
+build/
+dist/
+.DS_Store
+.env

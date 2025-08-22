@@ -6,7 +6,17 @@ import {
   SiSlack,
   SiVercel,
   SiMacos,
+  SiMysql,
+  SiMicrosoftexcel,
+  SiTableau,
+  SiGithub,
+  SiPostgresql,
 } from "react-icons/si";
+import {
+  DiPython,
+  DiGit,
+  DiMongodb,
+} from "react-icons/di";
 
 function Toolstack() {
   return (
@@ -25,6 +35,32 @@ function Toolstack() {
       </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
+      </Col>
+      
+      {/* Data Analysis Tools */}
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPython />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMicrosoftexcel />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTableau />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGithub />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMongodb />
       </Col>
     </Row>
   );

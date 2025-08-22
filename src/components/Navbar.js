@@ -9,6 +9,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
+import { MdOutlineWorkspacePremium } from "react-icons/md";
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
@@ -72,6 +73,16 @@ function NavBar() {
               >
                 <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} />{" "}
                 Projects
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/certifications"
+                onClick={() => updateExpanded(false)}
+              >
+                <MdOutlineWorkspacePremium style={{ marginBottom: "2px" }} /> Certifications
               </Nav.Link>
             </Nav.Item>
 

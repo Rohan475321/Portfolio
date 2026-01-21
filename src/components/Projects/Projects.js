@@ -43,6 +43,17 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="Karad Smart City Power Management Dashboard | Power BI"
+              description="I designed a conceptual Power BI dashboard to analyze power generation, consumption, and infrastructure health for a smart city use case."
+              ghLink="https://www.linkedin.com/posts/rohan-yadav1_powerbi-dataanalytics-portfolioproject-activity-7408949702508879872-36tU?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEJlUKcBRhwcN4Nj4fhWhPplNFDyBjNr8b8"
+              
+            />
+            </Col>
+
           {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}

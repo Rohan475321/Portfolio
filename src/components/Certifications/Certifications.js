@@ -10,40 +10,48 @@ function Certifications() {
       issuer: "IBM",
       date: "2025",
       description: "Completed comprehensive data analytics training covering data cleaning, analysis, visualization, and Python programming",
-      link: "https://www.credly.com/badges/30d76870-0aaf-4565-99a5-e12ddb5c81d9/linked_in_profile", // Add your certificate link here
-      credentialId: "30d76870-0aaf-4565-99a5-e12ddb5c81d9" // Add your credential ID if available
+      link: "https://www.credly.com/badges/30d76870-0aaf-4565-99a5-e12ddb5c81d9/linked_in_profile", 
+      credentialId: "30d76870-0aaf-4565-99a5-e12ddb5c81d9" 
     },
     {
       title: "CISCO Python Certificate",
       issuer: "CISCO ",
       date: "2024",
       description: "Demonstrated foundational knowledge of Python programming language",
-      link: "https://www.credly.com/badges/cef8d52a-2241-455d-bbca-39fea675f61b/linked_in_profile", // Add your certificate link here
-      credentialId: "cef8d52a-2241-455d-bbca-39fea675f61b" // Add your credential ID if available
+      link: "https://www.credly.com/badges/cef8d52a-2241-455d-bbca-39fea675f61b/linked_in_profile", 
+      credentialId: "cef8d52a-2241-455d-bbca-39fea675f61b" 
     },
     {
       title: "HP Data Science & Analytics",
       issuer: "HP",
       date: "2024",
       description: "Mastered Python programming for data analysis, visualization, and machine learning applications",
-      link: "https://www.life-global.org/certificate/9b9bfef8-abdf-430c-ae77-91e0476ffe3d", // Add your certificate link here
-      credentialId: "9b9bfef8-abdf-430c-ae77-91e0476ffe3d" // Add your credential ID if available
+      link: "https://www.life-global.org/certificate/9b9bfef8-abdf-430c-ae77-91e0476ffe3d", 
+      credentialId: "9b9bfef8-abdf-430c-ae77-91e0476ffe3d" 
     },
     {
       title: "Deloitte Data Analytics Job Simulation",
       issuer: "Deloitte",
       date: "2025",
       description: "Advanced the Analytics and gained the hands on experience with the terms in the Data Analytics",
-      link: "https://www.linkedin.com/posts/rohan-yadav1_data-analytics-job-simulation-certificate-activity-7363288556334657536-y2FH?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEJlUKcBRhwcN4Nj4fhWhPplNFDyBjNr8b8", // Add your certificate link here
-      credentialId: "RCSo45R23KR3WzqGE" // Add your credential ID if available
+      link: "https://www.linkedin.com/posts/rohan-yadav1_data-analytics-job-simulation-certificate-activity-7363288556334657536-y2FH?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEJlUKcBRhwcN4Nj4fhWhPplNFDyBjNr8b8", 
+      credentialId: "RCSo45R23KR3WzqGE" 
     },
     {
         title: "Tata Data Visualisation:Empowering Business Effective Insights",
         issuer: "TATA",
         date: "2025",
         description: "Advanced data analysis & visualization ",
-        link: "https://www.linkedin.com/posts/rohan-yadav1_forage-certificate-activity-7364703199066284033-pRHh?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEJlUKcBRhwcN4Nj4fhWhPplNFDyBjNr8b8", // Add your certificate link here
+        link: "https://www.linkedin.com/posts/rohan-yadav1_forage-certificate-activity-7364703199066284033-pRHh?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEJlUKcBRhwcN4Nj4fhWhPplNFDyBjNr8b8",
         credentialId: "	3L6FuRGCJnhKRhcvF" 
+    },
+    {
+        title: "Data Visualization Associate",
+        issuer: "EXCELERATE",
+        date: "2025",
+        description: "Data Visualization Associate Early Remote Internship",
+        link: "https://experience.4excelerate.org/verifications/certificate/b0005040f0d07050-020000080-040609020-1b09P6Z8V-7a7aVeRa64F3211aN2A25a323/Yadav", 
+        credentialId: "4Excelerate" 
     }
   ];
 

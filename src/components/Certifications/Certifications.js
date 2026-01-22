@@ -51,7 +51,7 @@ function Certifications() {
         date: "2025",
         description: "Data Visualization Associate Early Remote Internship",
         link: "https://experience.4excelerate.org/verifications/certificate/b0005040f0d07050-020000080-040609020-1b09P6Z8V-7a7aVeRa64F3211aN2A25a323/Yadav", 
-        credentialId: "4Excelerate" 
+        credentialId: "Excelerate Certificate" 
     }
   ];
 

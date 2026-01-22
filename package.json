@@ -48,8 +48,7 @@
   },
   "overrides": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "ajv-keywords": "^3.5.2"
+    "react-dom": "^18.3.1"
   },
   "engines": {
     "node": "24.x",

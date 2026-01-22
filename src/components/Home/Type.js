@@ -9,7 +9,6 @@ function Type() {
           "Python Developer",
           "Data Analyst",
           "Freelancer",
-          ,
         ],
         autoStart: true,
         loop: true,

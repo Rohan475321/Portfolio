@@ -17,11 +17,12 @@
     "react-parallax-tilt": "^1.7.42",
     "react-pdf": "^10.3.0",
     "react-router-dom": "^6.2.2",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "5.0.1",
     "react-tsparticles": "^1.42.2",
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.4",
-    "ajv": "^8.12.0"
+    "ajv": "^8.12.0",
+    "ajv-keywords": "^5.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -50,9 +51,8 @@
   "overrides": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "ajv-keywords": {
-      "ajv": "^8.12.0"
-    }
+    "ajv-keywords": "^5.1.0",
+    "ajv": "^8.12.0"
   },
   "engines": {
     "node": "24.x",

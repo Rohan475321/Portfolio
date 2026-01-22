@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 // VscVscode and DiVisualstudio were in your lists
 import { VscVscode } from "react-icons/vsc"; 
-import { FaGithub, FaDatabase, FaTable } from "react-icons/fa";
+import { FaGithub, FaTable } from "react-icons/fa";
 import { 
   SiPostman, 
   SiVercel, 

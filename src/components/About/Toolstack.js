@@ -1,41 +1,33 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {
-  SiVisualstudiocode,
-  SiPostman,
-  SiVercel,
-  SiMysql,
-  SiMicrosoftexcel,
-  SiTableau,
-  SiGithub,
-  SiPostgresql,
+// VscVscode and DiVisualstudio were in your lists
+import { VscVscode } from "react-icons/vsc"; 
+import { FaGithub, FaDatabase, FaTable } from "react-icons/fa";
+import { 
+  SiPostman, 
+  SiVercel, 
+  SiMysql 
 } from "react-icons/si";
 import {
   DiPython,
   DiGit,
   DiMongodb,
+  DiPostgresql,
+  DiOnedrive, // Replacement for Excel/Office found in your list
 } from "react-icons/di";
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiMacos />
-      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <VscVscode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiSlack />
-      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
       </Col>
-      
-      {/* Data Analysis Tools */}
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
@@ -43,19 +35,19 @@ function Toolstack() {
         <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <DiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMicrosoftexcel />
+        <DiOnedrive /> 
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTableau />
+        <FaTable /> 
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGithub />
+        <FaGithub />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
